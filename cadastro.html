@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <script src="/js/login.js"></script>
+
+    <title>Conectar - serviços sobre demanda</title>
+  </head>
+  <body>
+    <div class="contains">
+      <div class="login-container">
+        <img src="img/logo3.png" alt="conectar logo" class="logo2" />
+        <form action="#" class="form">
+          <div class="form__group">
+            <input
+              type="text"
+              class="form__input"
+              placeholder="Email"
+              id="email"
+              required
+            />
+            <label for="name" class="form__label">Email</label>
+          </div>
+          <div class="form__group">
+            <input
+              type="password"
+              class="form__input"
+              placeholder="Password"
+              id="password"
+              required
+            />
+            <label for="password" class="form__label">Senha</label>
+          </div>
+
+          <div class="form__group">
+            <button class="btn btn--green" onclick="login(event)">
+              Fazer Login &rarr;
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
